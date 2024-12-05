@@ -4,14 +4,15 @@ const gladiaApiUrl = "https://api.gladia.io";
 const gladiaKey = readGladiaKey();
 const config = {
 
-"custom_metadata":{"user_name":"Dan S"},
-"language_config":{"languages":["en","es","fr"],
-                   "code_switching":true},
-"channels": 2,
-"realtime_processing":{"words_accurate_timestamps":true,
-    "custom_vocabulary":true,
-    "custom_vocabulary_config":{"vocabulary":["Gladia","Abi","Github"]}
+custom_metadata:{"user_name":"Dan S"},
+language_config:{"languages":["en","es","fr"],
+                 "code_switching":true},
+channels: 2,
+realtime_processing:{"words_accurate_timestamps":true,
+    custom_vocabulary:true,
+    custom_vocabulary_config:{"vocabulary":["Gladia","Abi","Github"]}
     }
+
 };
 async function initLiveSession() {
     const response = await fetch(`${gladiaApiUrl}/v2/live`, {
