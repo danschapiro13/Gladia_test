@@ -13,7 +13,7 @@
       custom_metadata:{user_name:'Dan S'},
       language_config:{languages:['en','es','fr'],code_switching:true},
       pre_processing:{audio_enhancer:true},
-      realtime_processing:{custom_vocabulary:true,custom_vocabulary_config:{vocabulary:['Gladia','Abi','Github'], sentiment_analysis:true}
+      realtime_processing:{custom_vocabulary:true,custom_vocabulary_config:{vocabulary:['Gladia','Abi','Github']}, sentiment_analysis:true
       }
     }),
   });
